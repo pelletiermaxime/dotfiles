@@ -1,0 +1,42 @@
+[user]
+        name = Maxime Pelletier
+        email = maxime.pelletier@libeo.com
+[remote "origin"]
+        push = HEAD
+[push]
+        #Si vous avez une vieille version de git, default = tracking
+	default = current
+[color]
+        ui = true
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
+
+[core]
+    whitespace=fix,trailing-space,cr-at-eol
+	excludesfile = /home/max/.gitignore
+
+[alias]
+    #st = status
+    #st = ! sh -c 'git status | lolcat'
+    #st = ! sh -c 'git status | cowsay -f dragon-and-cow -n | lolcat'
+    #st = ! sh -c 'git status | cowsay -f stegosaurus -n | cowsay -f sodomized -n | cowsay -n | lolcat | xcowsay -t 5'
+    st = ! sh -c 'git status | cowsay -f stegosaurus -n | cowsay -f sodomized -n | cowsay -n | lolcat'
+    #st = ! sh -c 'git status --short | toilet --gay -f future -t'
+
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log
+    logp = log -p --pretty=oneline --abbrev-commit
+    glog = log --graph --decorate --pretty=oneline --abbrev-commit
+    gloga = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+[help]
+	autocorrect = 4
+[init]
+	templatedir = ~/.git_template
+[credential]
+	helper = cache --timeout=3600
