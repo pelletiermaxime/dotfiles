@@ -57,3 +57,5 @@ autoload -U compinit && compinit
 
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 fpath=($HOME/.homesick/repos/homeshick/completions $fpath)
+
+alias screen='screen -U'
