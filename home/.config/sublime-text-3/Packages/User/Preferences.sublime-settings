@@ -5,16 +5,14 @@
 	"font_size": 11,
 	"ignored_packages":
 	[
-		"LiveReload",
 		"PhpDox",
-		"Search WordPress Codex",
+		"Vintage",
+		"Modific",
 		"CSV",
-		"Markdown Preview",
 		"jQuery",
 		"SideBarGit",
-		"GitGutter",
-		"Modific",
-		"Vintage"
+		"Search WordPress Codex",
+		"GitGutter"
 	],
 	"phoenix_color_red": true,
 	"rulers":

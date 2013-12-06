@@ -1,0 +1,52 @@
+<!DOCTYPE layouts>
+<playlist_layouts>
+ <layout group_by="Album" name="Verbose2">
+  <single_track active_indicator_row="0" show_cover="true">
+   <row>
+    <element suffix="" prefix="" size="0.65" bold="false" alignment="left" value="Title" underline="false" italic="false"/>
+    <element suffix="" prefix="" size="0" bold="false" alignment="center" value="Bitrate" underline="false" italic="false"/>
+    <element suffix="" prefix="" size="0.15" bold="false" alignment="right" value="Length" underline="false" italic="false"/>
+   </row>
+   <row>
+    <element suffix="" prefix="" size="0.5" bold="false" alignment="left" value="Artist" underline="false" italic="true"/>
+    <element suffix="" prefix="" size="0.5" bold="false" alignment="right" value="Album" underline="false" italic="false"/>
+   </row>
+  </single_track>
+  <group_head active_indicator_row="0" show_cover="true">
+   <row>
+    <element suffix="" prefix="" size="1" bold="true" alignment="left" value="Album" underline="false" italic="false"/>
+    <element suffix="" prefix="" size="0" bold="false" alignment="center" value="Disc number" underline="false" italic="false"/>
+   </row>
+   <row>
+    <element suffix="" prefix="" size="0.8" bold="true" alignment="left" value="Album artist" underline="false" italic="true"/>
+    <element suffix="" prefix="" size="0" bold="false" alignment="right" value="Type" underline="false" italic="false"/>
+   </row>
+   <row>
+    <element suffix="" prefix="" size="0.43" bold="false" alignment="left" value="Genre" underline="false" italic="true"/>
+    <element suffix="" prefix="" size="0.56" bold="false" alignment="right" value="Group tracks" underline="false" italic="false"/>
+   </row>
+   <row>
+    <element suffix="" prefix="" size="0.39" bold="false" alignment="left" value="Year" underline="false" italic="false"/>
+    <element suffix="" prefix="" size="0" bold="false" alignment="right" value="Group length" underline="false" italic="false"/>
+   </row>
+  </group_head>
+  <group_body active_indicator_row="0" show_cover="false">
+   <row>
+    <element suffix="" prefix="" size="0.7" bold="false" alignment="left" value="Title (with track number)" underline="false" italic="false"/>
+    <element suffix="" prefix="" size="0" bold="false" alignment="center" value="Bitrate" underline="false" italic="false"/>
+    <element suffix="" prefix="" size="0" bold="false" alignment="center" value="Disc number" underline="false" italic="false"/>
+    <element suffix="" prefix="" size="0.15" bold="false" alignment="right" value="Length" underline="false" italic="false"/>
+   </row>
+  </group_body>
+  <group_variousArtistsBody active_indicator_row="0" show_cover="false">
+   <row>
+    <element suffix="" prefix="" size="0.7" bold="false" alignment="left" value="Title (with track number)" underline="false" italic="false"/>
+    <element suffix="" prefix="" size="0" bold="false" alignment="center" value="Bitrate" underline="false" italic="false"/>
+    <element suffix="" prefix="" size="0.15" bold="false" alignment="right" value="Length" underline="false" italic="false"/>
+   </row>
+   <row>
+    <element suffix="" prefix="     " size="0" bold="false" alignment="left" value="Artist" underline="false" italic="true"/>
+   </row>
+  </group_variousArtistsBody>
+ </layout>
+</playlist_layouts>
