@@ -32,7 +32,8 @@ ZSH_THEME="fox"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git vagrant knife screen laravel history-substring-search zsh-syntax-highlighting z wd)
+plugins=(git laravel composer debian jump z last-working-dir per-directory-history screen web-search \
+colored-man colorize history history-substring-search extract wd zsh-syntax-highlighting knife vagrant cp git-prompt systemadmin)
 
 source $ZSH/oh-my-zsh.sh
 
