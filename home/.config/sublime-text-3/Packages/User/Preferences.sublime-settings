@@ -5,14 +5,13 @@
 	"font_size": 11,
 	"ignored_packages":
 	[
-		"PhpDox",
-		"Vintage",
-		"Modific",
-		"CSV",
-		"jQuery",
 		"SideBarGit",
-		"Search WordPress Codex",
-		"GitGutter"
+		"jQuery",
+		"GitGutter",
+		"PhpDox",
+		"Modific",
+		"Vintage",
+		"Search WordPress Codex"
 	],
 	"phoenix_color_red": true,
 	"rulers":

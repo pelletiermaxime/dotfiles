@@ -1,0 +1,6 @@
+[
+	{ "keys": ["f5"], "command": "goto_definition" },
+	{ "keys": ["ctrl+shift+e"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" },
+	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+]

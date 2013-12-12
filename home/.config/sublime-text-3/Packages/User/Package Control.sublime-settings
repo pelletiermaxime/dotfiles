@@ -1,0 +1,34 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Emmet",
+		"EncodingHelper",
+		"Format SQL",
+		"FreeMarker",
+		"GitGutter",
+		"Indent XML",
+		"jQuery",
+		"Local History",
+		"Package Control",
+		"perldoc",
+		"PerlTidy",
+		"PHP Companion",
+		"Phpcs",
+		"PhpDox",
+		"PhpTidy",
+		"PlainTasks",
+		"Sass",
+		"Search WordPress Codex",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"Smarty",
+		"SublimeCodeIntel",
+		"Theme - Phoenix",
+		"Twig",
+		"WordpressDev",
+		"Xdebug Client",
+		"xmllint"
+	]
+}
