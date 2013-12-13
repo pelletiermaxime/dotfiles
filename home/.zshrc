@@ -32,7 +32,7 @@ ZSH_THEME="fox"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git laravel composer debian jump z last-working-dir per-directory-history screen web-search \
+plugins=(git laravel composer debian z last-working-dir per-directory-history screen \
 colored-man colorize history history-substring-search extract wd zsh-syntax-highlighting knife vagrant cp git-prompt systemadmin)
 
 source $ZSH/oh-my-zsh.sh
@@ -50,7 +50,7 @@ alias record='ffmpeg -f x11grab -s 1920x1080 -r 3 -b 50k -i :0.0+3360 -vcodec li
 alias sl='sl'
 alias watson='watson -s dirty'
 
-alias -g gpr='| grep -sir'
+alias -g grp='| grep -si'
 alias -s log="tail -f"
 
 autoload -U compinit && compinit
