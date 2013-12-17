@@ -1,6 +1,12 @@
 {
 
-    "phpcs_php_prefix_path": "/usr/bin/phpcs",
+    "phpcs_executable_path": ".composer/vendor/bin/phpcs",
+
+    "phpcs_additional_args": {
+        "--standard": "/var/www/nhlstats.org/laravel/laravel_phpcs.xml",
+        "--tab-width": "4",
+        // "-n": ""
+    },
 
     // PHP Mess Detector settings
 
@@ -12,7 +18,7 @@
 
     // It seems python/sublime cannot always find the phpmd application
     // If empty, then use PATH version of phpmd, else use the set value
-    "phpmd_executable_path": "/usr/lib64/php5.5/bin//phpmd",
+    "phpmd_executable_path": ".composer/vendor/bin/phpmd",
 
     // Additional arguments you can specify into the application
     //

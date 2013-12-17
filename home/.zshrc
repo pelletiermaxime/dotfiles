@@ -27,7 +27,7 @@ colored-man colorize history history-substring-search extract wd zsh-syntax-high
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.6.3:/usr/games/bin:/usr/lib64/php5.5/bin/
+export PATH=/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.6.3:/usr/games/bin:/usr/lib64/php5.5/bin/:~/.composer/vendor/bin/
 
 autoload -U compinit && compinit
 

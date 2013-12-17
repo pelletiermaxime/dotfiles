@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"Blade Snippets",
 		"BracketHighlighter",
 		"Emmet",
 		"EncodingHelper",
@@ -28,7 +29,6 @@
 		"Theme - Phoenix",
 		"Twig",
 		"WordpressDev",
-		"Xdebug Client",
 		"xmllint"
 	]
 }
