@@ -5,7 +5,9 @@ update_info=yakuake.upd:2.9.9-startupnotification
 Frames=0
 
 [Appearance]
+Skin=default
 TerminalHighlightOnManualActivation=true
+Translucency=true
 
 [Behavior]
 FocusFollowsMouse=true

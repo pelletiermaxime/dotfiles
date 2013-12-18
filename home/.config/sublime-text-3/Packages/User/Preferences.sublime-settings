@@ -5,19 +5,22 @@
 	"font_size": 11,
 	"ignored_packages":
 	[
-		"Search WordPress Codex",
-		"PhpDox",
-		"SideBarGit",
-		"Modific",
+		"GitGutter",
 		"jQuery",
-		"Vintage"
+		"PhpDox",
+		"Search WordPress Codex",
+		"Vintage",
+		"SideBarGit",
+		"Modific"
 	],
 	"phoenix_color_red": true,
 	"rulers":
 	[
 		120
 	],
+	"show_encoding": true,
+	"show_line_endings": true,
 	"theme": "Phoenix Dark.sublime-theme",
-	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": false
 }
