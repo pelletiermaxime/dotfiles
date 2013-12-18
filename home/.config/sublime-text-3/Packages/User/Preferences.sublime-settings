@@ -14,6 +14,10 @@
 		"Modific"
 	],
 	"phoenix_color_red": true,
+	"phoenix_solid_current_tab": true,
+	"phoenix_dirty_bottom_bar": true,
+	"phoenix_color_expanded_folder": true,
+	"phoenix_tabs_auto_width": true,
 	"rulers":
 	[
 		120
