@@ -2,21 +2,16 @@
 	"always_prompt_for_file_reload": true,
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"draw_white_space": "all",
-	"font_size": 11,
+	"font_size": 13,
 	"ignored_packages":
 	[
-		"GitGutter",
-		"jQuery",
-		"PhpDox",
-		"Search WordPress Codex",
 		"Vintage",
-		"SideBarGit",
 		"Modific"
 	],
-	"phoenix_color_red": true,
-	"phoenix_solid_current_tab": true,
-	"phoenix_dirty_bottom_bar": true,
 	"phoenix_color_expanded_folder": true,
+	"phoenix_color_red": true,
+	"phoenix_dirty_bottom_bar": true,
+	"phoenix_solid_current_tab": true,
 	"phoenix_tabs_auto_width": true,
 	"rulers":
 	[
@@ -25,6 +20,6 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"theme": "Phoenix Dark.sublime-theme",
-	"trim_automatic_white_space": false,
-	"trim_trailing_white_space_on_save": false
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true
 }

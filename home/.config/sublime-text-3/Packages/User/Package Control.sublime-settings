@@ -16,18 +16,16 @@
 		"PerlTidy",
 		"PHP Companion",
 		"Phpcs",
-		"PhpDox",
+		"PhpDoc",
 		"PhpTidy",
 		"PlainTasks",
 		"Sass",
-		"Search WordPress Codex",
 		"SideBarEnhancements",
-		"SideBarGit",
 		"Smarty",
 		"SublimeCodeIntel",
 		"Theme - Phoenix",
 		"Twig",
 		"WordpressDev",
-		"xmllint"
+		"Xdebug Client"
 	]
 }

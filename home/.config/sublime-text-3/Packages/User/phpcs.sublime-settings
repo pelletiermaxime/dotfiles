@@ -3,7 +3,7 @@
     "phpcs_executable_path": ".composer/vendor/bin/phpcs",
 
     "phpcs_additional_args": {
-        "--standard": "/var/www/nhlstats.org/laravel/laravel_phpcs.xml",
+        "--standard": "/var/www/nhlstats.org/laravel_phpcs.xml",
         "--tab-width": "4",
         // "-n": ""
     },
