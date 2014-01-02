@@ -11,3 +11,8 @@ alias -g grp='| grep -si'
 alias -s log="tail -f"
 
 alias screen='screen -U'
+
+alias gf='git flow'
+
+alias ag='ag'
+alias c='hhvm /usr/bin/composer'
