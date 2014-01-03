@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"Blade Snippets",
+		"Bootstrap 3 Snippets",
 		"BracketHighlighter",
 		"Emmet",
 		"Format SQL",
@@ -10,6 +11,7 @@
 		"GitGutter",
 		"Indent XML",
 		"jQuery",
+		"Laravel Snippets",
 		"Local History",
 		"Package Control",
 		"perldoc",
