@@ -1,5 +1,6 @@
 alias glp="git log -p"
 alias gg="git grep"
+alias gdw="git diff --word-diff"
 
 alias koha='$HOME/koha koha'
 alias kohasudo='$HOME/koha mpelletier'
