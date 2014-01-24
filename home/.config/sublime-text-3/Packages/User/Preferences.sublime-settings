@@ -1,12 +1,12 @@
 {
 	"always_prompt_for_file_reload": true,
-	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
+	"color_scheme": "Packages/User/Twilight (SL).tmTheme",
 	"draw_white_space": "all",
 	"font_size": 14,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Modific"
+		"Modific",
+		"Vintage"
 	],
 	"phoenix_color_expanded_folder": true,
 	"phoenix_color_red": true,

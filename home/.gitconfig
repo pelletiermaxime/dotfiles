@@ -33,6 +33,7 @@
     logp = log -p --pretty=oneline --abbrev-commit
     glog = log --graph --decorate --pretty=oneline --abbrev-commit
     gloga = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    delete-merged-branches = "!f() { git checkout --quiet develop && git branch --merged | grep --invert-match '\\*' | xargs -n 1 git branch --delete; git checkout --quiet @{-1}; }; f"
 
 [help]
 	autocorrect = 4
