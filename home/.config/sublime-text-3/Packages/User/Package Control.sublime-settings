@@ -27,6 +27,7 @@
 		"Smarty",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-annotations",
 		"SublimeLinter-contrib-perl",
 		"SublimeLinter-php",
 		"SublimeLinter-phpcs",
