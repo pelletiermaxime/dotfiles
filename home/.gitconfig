@@ -16,7 +16,8 @@
 [core]
     whitespace=fix,trailing-space,cr-at-eol
 	excludesfile = /home/max/.gitignore
-
+[merge]
+        conflictstyle = diff3
 [alias]
     #st = status
     #st = ! sh -c 'git status | lolcat'
