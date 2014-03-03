@@ -21,7 +21,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git laravel4 composer debian z last-working-dir per-directory-history screen \
+plugins=(git laravel4 composer debian z per-directory-history screen \
 colored-man colorize history history-substring-search extract wd zsh-syntax-highlighting knife vagrant cp systemadmin \
 git-flow-avh)
 
@@ -29,6 +29,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.6.3:/usr/games/bin:/usr/lib64/php5.5/bin/:~/.composer/vendor/bin/
+export NODE_PATH="/usr/lib64/node_modules"
 
 autoload -U compinit && compinit
 

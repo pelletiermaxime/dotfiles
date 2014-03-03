@@ -16,6 +16,7 @@
 [core]
     whitespace=fix,trailing-space,cr-at-eol
 	excludesfile = /home/max/.gitignore
+	editor = nano
 [merge]
         conflictstyle = diff3
 [alias]

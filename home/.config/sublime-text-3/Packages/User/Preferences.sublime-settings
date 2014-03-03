@@ -8,6 +8,11 @@
 		"Modific",
 		"Vintage"
 	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		".sass-cache*"
+	],
 	"phoenix_color_expanded_folder": true,
 	"phoenix_color_red": true,
 	"phoenix_dirty_bottom_bar": true,

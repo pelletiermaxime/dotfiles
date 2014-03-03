@@ -17,3 +17,5 @@ alias gf='git flow'
 
 alias ag='ag'
 alias c='hhvm /usr/bin/composer'
+
+alias behatrun='./vendor/bin/behat -p max'
