@@ -36,10 +36,12 @@
     glog = log --graph --decorate --pretty=oneline --abbrev-commit
     gloga = log --graph --decorate --pretty=oneline --abbrev-commit --all
     delete-merged-branches = "!f() { git checkout --quiet develop && git branch --merged | grep --invert-match '\\*' | xargs -n 1 git branch --delete; git checkout --quiet @{-1}; }; f"
+    up = "!git remote update -p; git merge --ff-only @{u}"
+    addnw = ! sh -c 'git diff -w --no-color "$@" | git apply --cached --ignore-whitespace' -
 
 [help]
 	autocorrect = 4
 [init]
-	templatedir = ~/.git_template
+#	templatedir = ~/.git_template
 [credential]
 	helper = cache --timeout=10800
