@@ -2,11 +2,11 @@
 	"always_prompt_for_file_reload": true,
 	"color_scheme": "Packages/User/Twilight (SL).tmTheme",
 	"draw_white_space": "all",
-	"font_size": 14,
+	"font_size": 16,
 	"ignored_packages":
 	[
-		"Modific",
-		"Vintage"
+		"Vintage",
+		"Modific"
 	],
 	"index_exclude_patterns":
 	[

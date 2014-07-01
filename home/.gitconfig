@@ -44,4 +44,4 @@
 [init]
 #	templatedir = ~/.git_template
 [credential]
-	helper = cache --timeout=10800
+	helper = cache --timeout=72000
