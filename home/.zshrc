@@ -31,6 +31,10 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.6.3:/usr/games/bin:/usr/lib64/php5.5/bin/:~/.composer/vendor/bin/:~/.gem/ruby/2.0.0/bin
 export NODE_PATH="/usr/lib64/node_modules"
 
+export GOPATH=~/gostuff
+export PATH=$PATH:$GOPATH/bin
+
+
 autoload -U compinit && compinit
 
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
