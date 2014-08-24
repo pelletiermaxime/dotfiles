@@ -19,3 +19,4 @@ alias ag='ag'
 alias c='hhvm /usr/bin/composer'
 
 alias behatrun='./vendor/bin/behat -p max'
+alias pretty_json='python -mjson.tool | pygmentize -g'
