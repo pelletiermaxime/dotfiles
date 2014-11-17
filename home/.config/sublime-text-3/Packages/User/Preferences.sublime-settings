@@ -1,17 +1,26 @@
 {
 	"always_prompt_for_file_reload": true,
-	"color_scheme": "Packages/User/Twilight (SL).tmTheme",
+	"color_scheme": "Packages/Devastate/Devastate.tmTheme",
 	"draw_white_space": "all",
-	"font_size": 16,
+	"font_size": 17,
+	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
+		"Modific",
 		"Vintage",
-		"Modific"
+		"Xdebug Client",
+		"SublimeLinter-annotations",
+		"BracketHighlighter",
+		"SublimeLinter-contrib-perl"
 	],
 	"index_exclude_patterns":
 	[
+		"/var/www/facturation-telephonie/vendor*",
+		"vendor*",
 		"*.log",
-		".sass-cache*"
+		"/var/www/sysadmin-tools/vendor*",
+		".sass-cache*",
+		"/var/www/facturation-telephonie/vendor/predis*"
 	],
 	"phoenix_color_expanded_folder": true,
 	"phoenix_color_red": true,
@@ -24,7 +33,7 @@
 	],
 	"show_encoding": true,
 	"show_line_endings": true,
-	"theme": "Phoenix Dark.sublime-theme",
+	"theme": "Cyanide - Alert.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true
 }
