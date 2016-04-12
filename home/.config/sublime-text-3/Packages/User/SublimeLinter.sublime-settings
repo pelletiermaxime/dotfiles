@@ -1,96 +1,130 @@
 {
-       "user":
-       {
-               "debug": false,
-               "delay": 0.25,
-               "error_color": "D02000",
-               "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
-               "gutter_theme_excludes":
-               [
-               ],
-               "lint_mode": "background",
-               "linters":
-               {
-                       "perl":
-                       {
-                               "@disable": false,
-                               "args":
-                               [
-                               ],
-                               "excludes":
-                               [
-                               ]
-                       },
-                       "php":
-                       {
-                               "@disable": false,
-                               "args":
-                               [
-                               ],
-                               "excludes":
-                               [
-                               ]
-                       },
-                       "phpcs":
-                       {
-                               "@disable": false,
-                               "args":
-                               [
-                                       "--tab-width=4"
-                               ],
-                               "excludes":
-                               [
-                               ],
-                               "standard": "/var/www/CSQ/laravel_phpcs.xml"
-                       },
-                       "phpmd":
-                       {
-                               "@disable": false,
-                               "args":
-                               [
-                               ],
-                               "excludes":
-                               [
-                               ],
-                               "rulesets": "codesize,design,unusedcode"
-                       }
-               },
-               "mark_style": "outline",
-               "no_column_highlights_line": false,
-               "paths":
-               {
-                       "linux":
-                       [
-                               "/home/max/.composer/vendor/bin"
-                       ],
-                       "osx":
-                       [
-                       ],
-                       "windows":
-                       [
-                       ]
-               },
-               "python_paths":
-               {
-                       "linux":
-                       [
-                       ],
-                       "osx":
-                       [
-                       ],
-                       "windows":
-                       [
-                       ]
-               },
-               "rc_search_limit": 3,
-               "shell_timeout": 10,
-               "show_errors_on_save": false,
-               "show_marks_in_minimap": true,
-               "syntax_map":
-               {
-                       "php": ""
-               },
-               "warning_color": "DDB700",
-               "wrap_find": true
-       }
+    "user": {
+        "debug": false,
+        "delay": 0.25,
+        "error_color": "D02000",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme_excludes": [],
+        "lint_mode": "background",
+        "linters": {
+            "annotations": {
+                "@disable": false,
+                "args": [],
+                "errors": [
+                    "FIXME"
+                ],
+                "excludes": [],
+                "warnings": [
+                    "TODO",
+                    "README"
+                ]
+            },
+            "apiblueprint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "csslint": {
+                "@disable": false,
+                "args": [],
+                "errors": "",
+                "excludes": [],
+                "ignore": "",
+                "warnings": ""
+            },
+            "foodcritic": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "gjslint": {
+                "@disable": false,
+                "args": [],
+                "disable": "",
+                "excludes": [],
+                "jslint_error": "",
+                "max_line_length": null
+            },
+            "golint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "gotype": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "json": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "strict": true
+            },
+            "php": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "phpcs": {
+                "@disable": true,
+                "args": [
+                    "--tab-width=4"
+                ],
+                "excludes": [],
+                "standard": "PSR2"
+            },
+            "phpmd": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "rulesets": "codesize,design,unusedcode"
+            },
+            "pyyaml": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "rubocop": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "ruby": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "mark_style": "outline",
+        "no_column_highlights_line": false,
+        "passive_warnings": false,
+        "paths": {
+            "linux": [
+                "/home/max/.composer/vendor/bin",
+                "/home/max/.gem/ruby/2.0.0/bin",
+                "/home/max/gostuff/bin"
+            ],
+            "osx": [],
+            "windows": []
+        },
+        "python_paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "rc_search_limit": 3,
+        "shell_timeout": 10,
+        "show_errors_on_save": false,
+        "show_marks_in_minimap": true,
+        "syntax_map": {
+            "html (django)": "html",
+            "html (rails)": "html",
+            "html 5": "html",
+            "php": "",
+            "python django": "python"
+        },
+        "warning_color": "DDB700",
+        "wrap_find": true
+    }
 }

@@ -1,27 +1,35 @@
 {
+	"added_words":
+	[
+		"Laravel"
+	],
 	"always_prompt_for_file_reload": true,
-	"color_scheme": "Packages/Devastate/Devastate.tmTheme",
+	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+	"dictionary": "Packages/Dictionaries/English (Canadian).dic",
 	"draw_white_space": "all",
-	"font_size": 17,
+	"font_face": "Fira Code",
+	"font_size": 14,
 	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
-		"Modific",
+		"Vagrant",
 		"Vintage",
-		"Xdebug Client",
-		"SublimeLinter-annotations",
-		"BracketHighlighter",
-		"SublimeLinter-contrib-perl"
+		"Go",
+		"GitGutter"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
 	],
 	"index_exclude_patterns":
 	[
-		"/var/www/facturation-telephonie/vendor*",
-		"vendor*",
-		"*.log",
-		"/var/www/sysadmin-tools/vendor*",
 		".sass-cache*",
-		"/var/www/facturation-telephonie/vendor/predis*"
+		"*.log",
+		"/storage*",
+		"*/vendor/predis/*"
 	],
+	"index_files": true,
+	"origami_auto_zoom_on_focus": 0.65,
 	"phoenix_color_expanded_folder": true,
 	"phoenix_color_red": true,
 	"phoenix_dirty_bottom_bar": true,
@@ -33,6 +41,7 @@
 	],
 	"show_encoding": true,
 	"show_line_endings": true,
+	"show_panel_on_build": false,
 	"theme": "Cyanide - Alert.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true
