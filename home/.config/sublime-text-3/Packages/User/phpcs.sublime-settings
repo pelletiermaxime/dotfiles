@@ -1,33 +1,8 @@
 {
+    "phpmd_run": false,
 
-    "phpcs_executable_path": ".composer/vendor/bin/phpcs",
-
-    "phpcs_additional_args": {
-        "--standard": "/var/www/nhlstats.org/laravel_phpcs.xml",
-        "--tab-width": "4",
-        // "-n": ""
-    },
-
-    // PHP Mess Detector settings
-
-    // Execute phpmd
-    "phpmd_run": true,
-
-    // Execute the phpmd on file save
-    "phpmd_command_on_save": true,
-
-    // It seems python/sublime cannot always find the phpmd application
-    // If empty, then use PATH version of phpmd, else use the set value
-    "phpmd_executable_path": ".composer/vendor/bin/phpmd",
-
-    // Additional arguments you can specify into the application
-    //
-    // Example:
-    // {
-    //     "codesize,unusedcode"
-    // }
-    "phpmd_additional_args": {
-        "codesize,unusedcode,naming,design": ""
+    "php_cs_fixer_additional_args": {
+        "--level=psr2 --fixers short_array_syntax,phpdoc_indent,unused_use,concat_with_spaces,ordered_use"
     },
 
 }

@@ -4,7 +4,26 @@
 		"Laravel"
 	],
 	"always_prompt_for_file_reload": true,
-	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"node_modules/**",
+		"storage/**"
+	],
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/User/SublimeLinter/brogrammer (SL).tmTheme",
 	"dictionary": "Packages/Dictionaries/English (Canadian).dic",
 	"draw_white_space": "all",
 	"font_face": "Fira Code",
@@ -12,10 +31,10 @@
 	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
-		"Vagrant",
-		"Vintage",
-		"Go",
-		"GitGutter"
+		"Dockerfile Syntax Highlighting",
+		"Format SQL",
+		"PhpTidy",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -41,7 +60,7 @@
 	],
 	"show_encoding": true,
 	"show_line_endings": true,
-	"show_panel_on_build": false,
+	"show_panel_on_build": true,
 	"theme": "Cyanide - Alert.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true
