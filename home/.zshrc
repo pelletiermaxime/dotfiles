@@ -37,7 +37,7 @@ export GOPATH=~/gostuff
 export PATH=$PATH:$GOPATH/bin
 
 export PATH=$PATH:/sbin:/usr/sbin
-
+export WORKON_HOME=~/Envs
 
 autoload -U compinit && compinit
 
@@ -46,3 +46,4 @@ fpath=($HOME/.homesick/repos/homeshick/completions $fpath)
 
 # added by travis gem
 [ -f /home/max/.travis/travis.sh ] && source /home/max/.travis/travis.sh
+

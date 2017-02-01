@@ -4,6 +4,12 @@ alias la='ls -A'
 alias l='ls -CF'
 
 alias gst='git status'
+# Pour vous générer le CHANGELOG
+alias gcl='echo  Last tag: `g tag | tail -n 1` && echo "`date +\"%d %B %Y\"`: Version " && git changelog `g tag | tail -n 1`..master'
+# Pour vous faciliter le cherry-picking des commits
+alias gcp='git cherry-pick'
+# Pour voir la différence entre la branche master et develop
+alias gcd='git cherry -v master develop | grep "+ "'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -49,3 +55,5 @@ mkcd() {
         fi
 }
 
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
