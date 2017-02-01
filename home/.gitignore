@@ -5,3 +5,6 @@
 Thumbs.db
 *.dia~
 .directory
+.idea
+
+adminer.php
