@@ -6,5 +6,6 @@ Thumbs.db
 *.dia~
 .directory
 .idea
+.vscode
 
 adminer.php
